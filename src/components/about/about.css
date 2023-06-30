@@ -1,0 +1,64 @@
+.about {
+  margin-top: -15%;
+  width: 100%;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about h2 .b-border {
+  border-bottom: 3px solid #2DC4EA;
+  display: block;
+  width: 21%;
+}
+
+.about h2 span {
+  color: #2DC4EA;
+}
+
+.about .about-gp {
+  padding-top: 47px;
+}
+
+.about .about-gp p {
+  font-size: 18px;
+}
+
+.about .about-gp .about-text {
+  width: 665px;
+}
+
+.about button {
+  width: 280px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 25px 0;
+  background: transparent linear-gradient(270deg, #3AE7AB 0%, #2DC4EA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* mobile */
+
+@media screen and (max-width: 480px) {
+  .about h2 {
+    font-size: 25px;
+  }
+  
+  .about .about-gp p {
+    font-size: 15px;
+  }
+  
+  .about button {
+    width: 200px;
+    font-size: 15px;
+    padding: 20px 0;
+  }
+  
+  .about .about-gp .about-text {
+    width: 55%;
+    padding-right: 15px;
+  }
+}

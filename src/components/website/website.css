@@ -1,0 +1,56 @@
+.website {
+  padding: 40px 0;
+  background: transparent linear-gradient(113deg, #3AE7AB 0%, #2DC4EA 100%) 0% 0% no-repeat padding-box;
+}
+
+.website .website-text h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.website .website-text ul li {
+  font-size: 18px;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 4%;
+  padding-left: 65px;
+  background-position: left top 7px;
+}
+
+.website .website-text {
+  width: 77%;
+  padding-left: 40px;
+}
+
+.website .website-text button {
+  position: relative;
+  padding-left: 18px;
+  background: transparent linear-gradient(270deg, #3AE7AB 0%, #2DC4EA 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+.website .translate-x-20 {
+  --tw-translate-x: 7.5rem;
+}
+
+.website .website-text button p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .website .website-text h2 {
+    font-size: 18px;
+  }
+  
+  .website .website-text ul li {
+    font-size: 15px;
+    background-size: 7%;
+    padding-left: 28px;
+  }
+}
+

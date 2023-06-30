@@ -1,0 +1,63 @@
+.mainvisual {  
+  background-size: cover;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  height: 637px;
+  position: relative;
+  z-index: -1;
+}
+
+.mainvisual .overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 2;
+}
+
+.mainvisual .mainvisual-text {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  padding: 50px 20px 0;
+}
+
+.mainvisual h1 {
+  font-size: 60px;
+}
+
+.mainvisual p {
+  font-size: 18px;
+}
+
+.mainvisual .text-gp {
+  padding: 40px 20px 0;
+}
+
+.border-right {
+  border-right: 2px solid #fff;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.text-gp p {
+  font-size: 24px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 480px) {
+  .mainvisual h1 {
+    font-size: 30px;
+  }
+  
+  .text-gp p {
+    font-size: 15px;
+  }
+}

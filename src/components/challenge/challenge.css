@@ -1,0 +1,79 @@
+.challenge h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.challenge h2 span {
+  color: #2DC4EA;
+}
+
+.challenge .red-text {
+  font-size: 14px;
+  color: #FF0000;
+}
+
+.challenge .challenge-image {
+  width: 40%;
+}
+
+.challenge .list-gp span {
+  font-size: 18px;
+}
+
+.challenge .list-gp span.id-num {
+  font-size: 40px;
+  opacity: 0.5;
+  color: #2DC4EA;
+  font-weight: bold;
+}
+
+.challenge .list-gp li {
+  cursor: pointer;
+}
+
+.challenge .list-gp li:hover {
+  background: transparent linear-gradient(90deg, #2DC4EA 0%, #3AE7AB 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #0000004D;
+}
+
+.challenge .list-gp li:hover span {
+  color: #ffffff;
+}
+
+.challenge button {
+  width: 215px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 25px 0;
+  background: transparent linear-gradient(270deg, #3AE7AB 0%, #2DC4EA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .challenge h2 {
+    font-size: 25px;
+  }
+  
+  .challenge .red-text {
+    font-size: 13px;
+  }
+  
+  .challenge .list-gp span.id-num {
+    font-size: 20px;
+  }
+  
+  .challenge .list-gp span {
+    font-size: 14px;
+  }
+  
+  .challenge .challenge-text {
+    padding-left: 20px;
+  }
+  
+  .challenge button {
+    width: 200px;
+    font-size: 15px;
+    padding: 20px 0;
+  }
+}
